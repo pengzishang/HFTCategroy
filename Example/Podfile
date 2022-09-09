@@ -1,6 +1,12 @@
 use_frameworks!
+source 'https://cdn.cocoapods.org/'
+source 'https://github.com/pengzishang/BabyGoSpecs.git'
+
+platform :ios, '10.0'
 target 'HFTCategroy_Tests' do
   pod 'HFTCategroy', :path => '../'
-  
+  pod 'SDWebImage'
+  pod 'Masonry'
+  pod 'RZColorful'
   
 end

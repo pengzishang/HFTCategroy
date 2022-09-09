@@ -1,0 +1,41 @@
+PODS:
+  - HFTCategroy (1.0.1):
+    - Masonry
+    - RZColorful (= 1.1.9)
+    - SDWebImage
+  - Masonry (1.1.0)
+  - RZColorful (1.1.9):
+    - RZColorful/AttributeCore (= 1.1.9)
+    - RZColorful/UICore (= 1.1.9)
+  - RZColorful/AttributeCore (1.1.9)
+  - RZColorful/UICore (1.1.9):
+    - RZColorful/AttributeCore
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
+
+DEPENDENCIES:
+  - HFTCategroy (from `../`)
+  - Masonry
+  - RZColorful
+  - SDWebImage
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - RZColorful
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  HFTCategroy:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HFTCategroy: 5115ec72399e0db36ad8d753a95ccca242e0695e
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  RZColorful: 6d1fc012f6be1f4b17ebdc2bb56fefbb7257d7b0
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+
+PODFILE CHECKSUM: c462b9b3b56fe9be9e53276d5e3155d688e1cc83
+
+COCOAPODS: 1.11.3

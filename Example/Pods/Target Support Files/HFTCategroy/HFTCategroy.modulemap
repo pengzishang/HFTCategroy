@@ -1,0 +1,6 @@
+framework module HFTCategroy {
+  umbrella header "HFTCategroy-umbrella.h"
+
+  export *
+  module * { export * }
+}

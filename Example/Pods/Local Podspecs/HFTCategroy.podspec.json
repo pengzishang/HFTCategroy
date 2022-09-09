@@ -1,6 +1,6 @@
 {
   "name": "HFTCategroy",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "summary": "A short description of HFTCategroy.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/pengzishang/HFTCategroy",
@@ -13,10 +13,21 @@
   },
   "source": {
     "git": "https://github.com/pengzishang/HFTCategroy.git",
-    "tag": "0.1.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "HFTCategroy/Classes/**/*"
+  "source_files": "HFTCategroy/Classes/**/*",
+  "dependencies": {
+    "SDWebImage": [
+
+    ],
+    "Masonry": [
+
+    ],
+    "RZColorful": [
+      "1.1.9"
+    ]
+  }
 }
